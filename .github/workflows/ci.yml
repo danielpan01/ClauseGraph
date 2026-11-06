@@ -81,7 +81,15 @@ jobs:
       - run: git diff --exit-code docs/openapi.json frontend/src/lib/api-types.ts
       - run: npm run typecheck && npm run lint && npm run build
         working-directory: frontend
-      - run: npx playwright install --with-deps chromium
+      - name: Configure bounded Ubuntu package downloads
+        run: |
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            printf '%s\n' 'https://archive.ubuntu.com/ubuntu/' | sudo tee /etc/apt/apt-mirrors.txt >/dev/null
+          fi
+          printf '%s\n' 'Acquire::http::Timeout "30";' 'Acquire::https::Timeout "30";' 'Acquire::Retries "2";' | sudo tee /etc/apt/apt.conf.d/99-clausegraph-timeouts >/dev/null
+      - name: Install Chromium and system dependencies
+        timeout-minutes: 6
+        run: npx playwright install --with-deps chromium
         working-directory: frontend
       - run: npm run test:e2e
         working-directory: frontend
