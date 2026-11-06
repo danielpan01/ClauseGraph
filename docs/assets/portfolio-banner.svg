@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+<title id="title">ClauseGraph</title><desc id="desc">STEELHACKS 2026 · TRACK WINNER. From financial fine print to a plan you can verify.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b2c"/><stop offset="1" stop-color="#080e19"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".025"/></pattern></defs>
+<rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="340" rx="20" fill="url(#grid)"/>
+<rect x="0" y="48" width="5" height="244" rx="2" fill="#c4b5fd"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="56" y="67" fill="#c4b5fd" font-size="14" font-weight="700" letter-spacing="2.3">STEELHACKS 2026 · TRACK WINNER</text>
+<text x="52" y="155" fill="#f8fafc" font-size="76" font-weight="700" letter-spacing="-3">ClauseGraph</text>
+<text x="56" y="204" fill="#d5deeb" font-size="24">From financial fine print</text>
+<text x="56" y="238" fill="#d5deeb" font-size="24">to a plan you can verify.</text>
+<text x="56" y="292" fill="#7e90a9" font-size="13" letter-spacing="1.6">EVIDENCE  /  DETERMINISTIC COMPUTATION  /  INSPECTABLE RESULTS</text>
+<path d="M832 109V229M832 169H916" stroke="#c4b5fd" stroke-width="2" stroke-opacity=".5" fill="none"/>
+<path d="M800 109H832M800 229H832" stroke="#c4b5fd" stroke-width="2" stroke-opacity=".5" fill="none"/>
+<rect x="698" y="67" width="102" height="84" rx="12" fill="#111f31" stroke="#2b3e55"/><circle cx="718" cy="89" r="4" fill="#c4b5fd"/><text x="714" y="119" fill="#eef4fc" font-size="15" font-weight="700">Clauses</text><rect x="698" y="187" width="102" height="84" rx="12" fill="#111f31" stroke="#2b3e55"/><circle cx="718" cy="209" r="4" fill="#c4b5fd"/><text x="714" y="239" fill="#eef4fc" font-size="15" font-weight="700">Rules</text><rect x="916" y="127" width="298" height="84" rx="12" fill="#111f31" stroke="#2b3e55"/><circle cx="936" cy="149" r="4" fill="#c4b5fd"/><text x="932" y="179" fill="#eef4fc" font-size="20" font-weight="700">Plans + bounded proof</text>
+<text x="935" y="235" fill="#8296b1" font-size="13">Source-linked. Reviewable.</text>
+</g></svg>
